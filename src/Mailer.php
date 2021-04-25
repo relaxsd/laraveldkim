@@ -2,6 +2,7 @@
 
 use Illuminate\Mail\Message;
 use Illuminate\Mail\Mailer as CoreMailer;
+use Swift_Message;
 use Swift_SignedMessage;
 use Swift_Signers_DKIMSigner;
 use Config;
